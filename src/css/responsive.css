@@ -1,0 +1,42 @@
+@media screen and (max-width: 639px) {
+    
+    main {
+        flex-flow: column wrap;
+    }
+
+    main img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    article {
+        border-radius: 0px 0px 10px 10px;
+        width: 260px;
+        height: 230px;
+        padding: 30px 15px 15px 15px;
+    }
+
+    .content h2 {
+        width: 235px;
+    }
+
+    .content p {
+        width: 205px;
+    }
+
+    button {
+        left: 140px;
+    }
+
+    .perfil-inf{
+        width: 113%;
+        height: 54px;
+        bottom: 70px;
+        left: -15px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .perfil-inf::after {
+        display: none;
+    }
+    
+}

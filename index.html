@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/favicon-32x32.png">
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <main>
+        <img src="src/img/drawers.jpg" alt="">
+
+        <article class="content">
+            <h2>
+                Shift the overall look and feel by adding these wonderful
+                touches to furniture in your home
+            </h2>
+            <p>
+                Ever been in a room and felt like something was missing? Perhaps
+                it felt slightly bare and uninviting. I’ve got some simple tips
+                to help you make any room feel complete.
+            </p>
+
+            <div class="perfil">
+
+                <img src="src/img/avatar-michelle.jpg" alt="">
+                <div class="inf">
+                    <h3>
+                        Michelle Appleton
+                    </h3>
+                    <p>
+                        28 Jun 2020
+                    </p>
+                    <button onblur="shareoff()" onclick="share()" on><img src="src/img/icon-share.svg" alt=""></button>
+                </div>
+
+            </div>
+
+            <div id="pop" class="perfil-inf">
+                <span>
+                    Share
+                </span>
+
+                <img src="src/img/icon-facebook.svg" alt="">
+                <img src="src/img/icon-twitter.svg" alt="">
+                <img src="src/img/icon-pinterest.svg" alt="">
+            </div>
+        </article>
+    </main>
+    <script src="src/js/pop.js"></script>
+</body>
+
+</html>
